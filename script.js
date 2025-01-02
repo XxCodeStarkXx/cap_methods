@@ -32,5 +32,14 @@
     }
     console.log(capitalize("freeDom"));
 
+    //get last letter "string" lenghth needs to be idenified in order for function to count backwards
+
+    function lastLetter(word) {
+        return word.charAt(word.length -4);
+    }
+
+    console.log(lastLetter("grape"));
+
+    
 
     
