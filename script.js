@@ -40,6 +40,26 @@
 
     console.log(lastLetter("grape"));
 
-    
 
-    
+
+    let lastlet = (words) => {
+
+    }
+
+    function last(fruit) {
+        return fruit.charAt(fruit.length -1);
+    }
+    console.log(last("apple"));
+
+    function firstLetterCap(x) {
+        return x.charAt(0).toUpperCase() + x.slice(1).toLowerCase();
+    }
+
+    console.log(firstLetterCap("grEat"));
+
+    function third (thirdLet) {
+        return thirdLet.charAt(3).toUpperCase() + thirdLet.slice().toLowerCase();
+    }
+
+    console.log(third("gRass"));
+
